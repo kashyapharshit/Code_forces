@@ -1,13 +1,11 @@
-# 1. Saari files ko ignore karein (isme bina extension wali files bhi aa jayengi)
-*
 
-# 2. Folders/directories ko wapas allow karein taaki structure bana rahe
+*
 !*/
 
-# 3. Sirf apni zaruri files ko un-ignore (allow) karein
+
 !*.c++
 !.gitignore
 
-# Agar aap koi aur files jaise Readme use karte hain, toh unhe bhi allow kar dein
+
 !*.md
 !*.txt
