@@ -1,99 +1,64 @@
-# Code_forces
+# Codeforces Solutions
 
-This repository contains my solutions to Codeforces problems — a collection of contest and practice problem solutions organized for easy reference and learning.
+A personal collection of solutions to **Codeforces** problems, written while practicing algorithms, data structures, and competitive programming techniques.
 
-> Owner: @kashyapharshit
+> Maintained by [@kashyapharshit](https://github.com/kashyapharshit)
 
----
+## Repository structure
 
-## Repository purpose
+Solutions are currently organized under `CODES/`:
 
-The goal of this repo is to collect clear, working solutions to problems from Codeforces, along with concise explanations and references so other developers (and my future self) can learn problem-solving patterns and implementation techniques.
+```text
+CODES/
+├── Python_solution/   # Python solutions
+└── Rounds/            # C++ solutions from contests and practice
+```
 
-## Contents / Structure
+Most solution filenames include the Codeforces problem ID, for example:
 
-I organize solutions by either contest or problem ID. Example layouts I use:
-
-- By contest:
-  - /contest/CF1234A.cpp
-  - /contest/CF1234B.py
-
-- By problem ID:
-  - /problems/1672A/solution.cpp
-  - /problems/1672B/solution.py
-
-Each solution file includes a short comment at the top with the problem link and a brief note on the approach.
+- `CODES/Python_solution/41A.py`
+- `CODES/Python_solution/677A.py`
+- `CODES/Rounds/2252A.c++`
 
 ## Languages
 
-Solutions are primarily in:
-- C++ (recommended for speed in contests)
-- Python (for readability and quick prototyping)
+- **C++** — approximately 68.5% of the repository
+- **Python** — approximately 31.5% of the repository
 
-Replace or add other languages as needed (Java, JavaScript, Rust, etc.).
+## Running solutions locally
 
-## How to run
+### C++
 
-C++ (g++)
+Compile with `g++` using C++17:
 
 ```bash
-# compile
-g++ -std=gnu++17 -O2 solution.cpp -o solution
-# run
+g++ -std=c++17 -O2 solution.c++ -o solution
 ./solution < input.txt
 ```
 
-Python (3.x)
+### Python
+
+Run with Python 3:
 
 ```bash
 python3 solution.py < input.txt
 ```
 
-Notes:
-- I include a small `input.txt` when I want to store sample testcases for local testing.
-- For interactive problems, run the script directly and follow the problem's interaction protocol.
+Replace `solution.c++` or `solution.py` with the path to the solution you want to run.
 
-## File naming & style
+## Notes
 
-- File names include the contest or problem id and a short name, for example: `CF1672A_fixproblem.cpp` or `1672A_solution.py`.
-- Add a comment at the top with the Codeforces problem URL and a 1–2 sentence summary of the approach and complexity.
-- Use readable variable names and keep functions short. Prefer iterative, well-commented solutions.
-
-Example header for a solution file:
-
-```cpp
-// Problem: https://codeforces.com/problemset/problem/1672/A
-// Approach: greedy; keep track of ...
-// Complexity: O(n)
-```
+- These solutions are intended for learning, practice, and reference.
+- Problem IDs in filenames can be used to find the corresponding problem on the [Codeforces problemset](https://codeforces.com/problemset).
+- Solutions may use different approaches depending on the constraints and the goal of the exercise.
 
 ## Contributing
 
-Contributions and pull requests are welcome:
-- Add a new solution file under an appropriate directory.
-- Follow the file naming and header conventions above.
-- Include a short explanation and sample input/output when helpful.
+This is primarily a personal practice repository, but suggestions and improvements are welcome. If you open a pull request, please include:
 
-When opening a PR, include:
-- The problem link
+- The related Codeforces problem link
 - The language used
-- Any assumptions or external resources referenced
+- A short explanation of the approach
+- Any relevant complexity details
 
-## Notes & Tips
-
-- Tag solutions by difficulty or topic using filename prefixes or a separate index file (e.g., `INDEX.md`) if you want to filter by tags.
-- If you want me to add templated solution files for a specific language (C++ template, Python fast-IO template), tell me and I can add them.
-
-## License
-
-This repository is available under the MIT License. See `LICENSE` for details.
-
-## Contact
-
-- GitHub: https://github.com/kashyapharshit
-
----
-
-Happy coding! If you want, I can:
-- Personalize the README with the exact languages you use and 2–3 highlighted solutions, or
-- Add example template files (C++ and Python) to the repo.
+Happy coding! 🚀
